@@ -1,0 +1,302 @@
+.navbar {
+  width: 100%;
+  background-color: #333; /* dark background */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #8e7754;
+}
+
+.bg-img {
+  padding-top: 100px; /* for navbar space */
+}
+
+.item {
+  margin-bottom: 60px;
+}
+.image,
+.content {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+  margin-top: 60px;
+}
+.content {
+  margin-top: 100px;
+}
+.content p {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.item .image img {
+  margin-left: 100px;
+  align-items: center;
+  height: 500px;
+  width: 50%;
+  border-radius: 10px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 7px;
+}
+li img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 100%;
+  background-color: #f8f8f8;
+  height: 600px;
+}
+
+.container h1 {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.container p {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.text-content,
+.image-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+.text-content {
+  margin-top: 200px;
+  margin-left: 0px;
+}
+.image-content {
+  width: 50%;
+  margin-top: 200px;
+}
+.image-content img {
+  margin-left: 100px;
+  width: 80%;
+}
+.containerr {
+  width: 80%;
+  margin: auto;
+}
+
+.soso {
+  float: left;
+  text-align: center;
+  width: 25%;
+  margin-left: 50px;
+}
+.soso img {
+  margin-bottom: 20px;
+}
+.soso h2 {
+  margin-bottom: 20px;
+}
+.soso img {
+  width: 100%;
+}
+.container {
+  width: 100%;
+}
+.contact-info {
+  float: left;
+  width: 40%;
+}
+.map {
+  float: right;
+  width: 30%;
+
+  height: 500px;
+}
+
+.map iframe {
+  margin-left: 300px;
+}
+
+.contact-item img {
+  vertical-align: middle;
+}
+.clear {
+  clear: both;
+}
+
+.bg-img {
+  background-image: url(./images/drew-coffman-1872.jpg);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  margin-bottom: 30px;
+}
+.wlcome {
+  text-align: center;
+}
+.wlcome p {
+  margin: auto;
+  padding-top: 20%;
+  padding-bottom: 30px;
+  color: white;
+  font-size: x-large;
+}
+.wlcome h1 {
+  color: white;
+  padding-bottom: 20px;
+  font-size: xxx-large;
+}
+.wlcome h3 {
+  font-size: large;
+  color: white;
+  padding-bottom: 30px;
+  padding-top: 28px;
+}
+.wlcome button {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.wlcome .but1 {
+  margin-right: 10px;
+  background-color: #8e7754;
+  color: white;
+  font-size: large;
+  border: 2px white;
+}
+.wlcome .but2 {
+  margin-left: 10px;
+  background-color: transparent;
+  color: white;
+  font-size: large;
+  border: solid 2px white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: Alegreya Sans;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-style: Alegreya Sans;
+}
+
+.momo h1 {
+  margin-bottom: 20px;
+}
+
+.contact-container {
+  float: left;
+  background-color: #f8f8f8;
+}
+.contact-details {
+  width: 40%;
+  float: left;
+  margin-left: 60px;
+  margin-top: 140px;
+}
+.map-container {
+  width: 50%;
+  float: right;
+  margin-right: 40px;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+iframe {
+  border-radius: 20px;
+}
+.contact-details h2 {
+  margin-bottom: 40px;
+}
+.contact-details p {
+  margin-bottom: 40px;
+}
+.contact-item {
+  margin-bottom: 20px;
+}
+.footer_container {
+  background-color: #403d38;
+  width: 100%;
+  overflow: hidden;
+}
+.footer_sections {
+  width: 100%;
+
+  margin: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+  border: solid black 1px;
+}
+.float {
+  float: left;
+  width: 20%;
+  margin: 30px;
+}
+h4 {
+  margin-bottom: 20px;
+}
+.float li {
+  margin-bottom: 20px;
+}
+.contact_detailss {
+  background-image: url(./images/contact-details-map.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer_container img {
+  vertical-align: middle;
+}
+.last {
+  text-align: center;
+  background-color: #353330;
+}
+.last1 img {
+  margin-left: 20px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.last1 p {
+  margin-top: 30px;
+}
+.last1 {
+  padding-bottom: 40px;
+}
